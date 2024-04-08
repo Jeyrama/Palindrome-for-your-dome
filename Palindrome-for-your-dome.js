@@ -13,3 +13,6 @@ Notes:
   You can see that the input is case insensitive and disregards non alphanumeric characters.
   The empty string "" can be read forward or backward the same, it's a palindrome in our case.
 */
+
+
+// Solution 
