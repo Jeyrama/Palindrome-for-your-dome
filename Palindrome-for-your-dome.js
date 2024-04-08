@@ -22,3 +22,11 @@ function palindrome(string) {
   for (let i = 0; i < s.length/2; i++) if (s[i] != s[s.length-i-1]) return false;
   return true;
 }
+
+// or
+
+const palindrome = string => {
+  string = string.replace(/[\W_]+/g, '').toLowerCase();
+  
+  return string === [...string].reverse().join``;
+}
